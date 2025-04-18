@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%
+}
+
+/* Emoji Injected Style */
+.emoji-picker .epr-search-container input{
+  background: #202c33!important;
+  color: #c2cacf!important;
+  border: 2px solid #344550;
+}
+.emoji-picker .epr-emoji-category-label{
+  background: #202c33!important;
+  color: #c2cacf!important;
+}
+/* Emoji Injected Style */
